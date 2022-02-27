@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+* {
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+
+
+/* ----------------------------------------------MENU------------------------------------ */
+
+.navbar {
+    background-color: rgb(216, 216, 215) !important;
+    height: 100%;
+    position: relative;
+}
+
+.navbar li a {
+    color: hsl(0, 88%, 3%) !important;
+}
+
+.collapse ul {
+    padding-right: 1%;
+}
+
+.navbar li a:hover {
+    color: rgb(214, 208, 208) !important;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30%;
+}
+
+
+/* ---------------------- Images header----------------------*/
+
+.Images_header {
+    position: relative;
+    background: url(Images/Hinh1.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Images_header .Text {
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    width: 400px;
+    color: white;
+}
+
+
+/* -----------------------content---------------------------- */
+
+.cont_Home_block1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    height: 700px;
+    margin-bottom: 5%;
+}
+
+.block1_Images img {
+    /* max-width: 100%;
+    max-height: 100%; */
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.block1_Text p {
+    font-size: 23px;
+    color: rgb(126, 123, 123);
+}
+
+
+/* ------------------------Block2------------------------------ */
+
+.block2 {
+    margin-top: 13%;
+    padding-left: 6.5%;
+    padding-right: 0;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.block2 img {
+    height: 100%;
+    width: 85%;
+}
+
+.block2 p {
+    font-size: 20px;
+    color: rgb(126, 123, 123);
+}
+
+.block2 h1 {
+    padding-top: 10%;
+}
+
+
+/* ----------------------footer----------------------------- */
+
+.content_footer {
+    margin-top: 7%;
+    padding: 5%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer_input {
+    margin-top: 10%;
+}
+
+.Text_footer h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Text_footer p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iconss a {
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    margin: 1.5%;
+}

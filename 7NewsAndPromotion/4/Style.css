@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+* {
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+
+
+/* ----------------------------------------------MENU------------------------------------ */
+
+.navbar {
+    background-color: rgb(216, 216, 215) !important;
+    height: 100%;
+    position: relative;
+}
+
+.navbar li a {
+    color: hsl(0, 88%, 3%) !important;
+}
+
+.collapse ul {
+    padding-right: 1%;
+}
+
+.navbar li a:hover {
+    color: rgb(214, 208, 208) !important;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30%;
+}
+
+
+/* --------------------content-------------------------------- */
+
+.content {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.content_image img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 6%;
+}
+
+.content_text p {
+    font-size: 22px;
+}
+
+.content_text a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Pagination */
+
+.pagination {
+    padding: 40%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* ----------------------footer----------------------------- */
+
+.content_footer {
+    margin-top: 2%;
+    padding: 5%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer_input {
+    margin-top: 10%;
+}
+
+.Text_footer h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Text_footer p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons a {
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    margin: 1.5%;
+}

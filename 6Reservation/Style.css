@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+* {
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+
+
+/* ----------------------------------------------MENU------------------------------------ */
+
+.navbar {
+    background-color: rgb(216, 216, 215) !important;
+    height: 100%;
+    position: relative;
+}
+
+.navbar li a {
+    color: hsl(0, 88%, 3%) !important;
+}
+
+.collapse ul {
+    padding-right: 1%;
+}
+
+.navbar li a:hover {
+    color: rgb(214, 208, 208) !important;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30%;
+}
+
+
+/* --------------------------content----------------------------- */
+
+/* .content {
+    height: 500px;
+    background-image: url(https://d1-concepts.com/wp-content/themes/d1concept/assets/images/about/reservation.jpg?fbclid=IwAR3s51tGgqICzxCzArDu-dfpqgJbXCVXTXS8laykS8npVb5l10dGnNLjb-o);
+} */
+
+
+/* ----------------------footer----------------------------- */
+
+.content_footer {
+    padding: 5%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer_input {
+    margin-top: 5%;
+}
+
+.Text_footer h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Text_footer p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iconss a {
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    margin: 1.5%;
+}
